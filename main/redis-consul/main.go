@@ -22,6 +22,8 @@ func main() {
 
 	logger.InitLogging(logPath)
 
+	logger.NoteWorthy.Println("================= VEND HACKED VERSION C =================")
+
 	config, err := configuration.LoadFromFile(configFile)
 
 	if err != nil {
